@@ -6,7 +6,7 @@ export async function load({ params }) {
     where: { id: Number(id) },
   });
   return {
-    mahasiswa,
+    mahasiswa: mahasiswa,
   };
 }
 
